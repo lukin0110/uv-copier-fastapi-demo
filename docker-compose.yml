@@ -1,19 +1,17 @@
-version: "3.9"
-
 services:
   # Container definition for the devcontainer
   devcontainer:
     build:
       context: .
       args:
-        PYTHON_VERSION: ${PYTHON_VERSION:-3.11.6}
+        PYTHON_VERSION: ${PYTHON_VERSION:-3.13.0}
       target: dev
     stdin_open: true
     tty: true
     volumes:
       - .:/workspaces/marty_mcfly/
 
-  # Container definition for running the FastAPI app in production
+  # Container definition for running the production app image
   app:
     build:
       context: .

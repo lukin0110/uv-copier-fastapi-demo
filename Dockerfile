@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-ARG PYTHON_VERSION=3.11.6
+ARG PYTHON_VERSION=3.13.0
 FROM python:$PYTHON_VERSION-slim AS base
 
 LABEL org.opencontainers.image.description "An example of a FastAPI app that was scaffolded with Poetry Copier"
@@ -11,7 +11,7 @@ ENV PYTHONFAULTHANDLER 1
 ENV PYTHONUNBUFFERED 1
 
 # Install Poetry.
-ENV POETRY_VERSION 1.7.1
+ENV POETRY_VERSION 1.8.4
 RUN --mount=type=cache,target=/root/.cache/pip/ \
     pip install poetry==$POETRY_VERSION
 
