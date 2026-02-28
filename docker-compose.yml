@@ -4,7 +4,7 @@ services:
     build:
       context: .
       args:
-        PYTHON_VERSION: ${PYTHON_VERSION:-3.13.0}
+        PYTHON_VERSION: ${PYTHON_VERSION:-3.14.3}
       target: dev
     stdin_open: true
     tty: true

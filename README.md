@@ -34,7 +34,6 @@ and open [localhost:8000](https://localhost:8000) in your browser.
 Go to [VS Code](https://code.visualstudio.com/), download and install VS Code.
 </details>
 
-
 </details>
 
 #### 1. Open DevContainer with VS Code
@@ -52,14 +51,14 @@ poe lint
 poe test
 ```
 
-#### 4. Update poetry lock file
+#### 4. Update uv lock file
 ```bash
-poetry lock --no-update
+uv lock
 ```
 
 ---
-See how to develop with [PyCharm or any other IDE](https://github.com/lukin0110/poetry-copier/tree/main/docs/ide.md).
+See how to develop with [PyCharm or any other IDE](https://github.com/lukin0110/uv-copier/tree/main/docs/ide.md).
 
 ---
-️⚡️ Scaffolded with [Poetry Copier](https://github.com/lukin0110/poetry-copier/).\
-🛠️ [Open an issue](https://github.com/lukin0110/poetry-copier/issues/new) if you have any questions or suggestions.
+️⚡️ Scaffolded with [Uv Copier](https://github.com/lukin0110/uv-copier/).\
+🛠️ [Open an issue](https://github.com/lukin0110/uv-copier/issues/new) if you have any questions or suggestions.
