@@ -1,10 +1,10 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
 _commit: v0.4.0
-_src_path: git@github.com:lukin0110/poetry-copier.git
+_src_path: git@github.com:lukin0110/uv-copier.git
 ci: github
 description: An example of a FastAPI app that was scaffolded with Poetry Copier
 name: Marty McFly
 package_type: fastapi
-repository_url: https://github.com/lukin0110/poetry-copier-fastapi-demo/
+repository_url: https://github.com/lukin0110/uv-copier-fastapi-demo/
 use_makefile: true
 use_private_package_repository: false
